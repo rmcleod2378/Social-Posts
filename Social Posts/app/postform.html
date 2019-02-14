@@ -1,0 +1,18 @@
+<form class="thoughts" 
+    ng-show="$ctrl.formToggle" 
+    ng-submit="$ctrl.addPost({newPost: $ctrl.newPost});">
+<p class="p1">Title</p>
+<input class="input" expand type="text" ng-model="$ctrl.newPost.title">
+<p class="p2">Thought</p>
+<textarea class="textarea" 
+        expand 
+        name="" 
+        id="" 
+        cols="30" 
+        rows="10" 
+        ng-model="$ctrl.newPost.thought"
+></textarea>
+<button class="post">Add Post</button>
+</form>
+
+    
