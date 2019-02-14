@@ -2,9 +2,11 @@
     ng-show="$ctrl.formToggle" 
     ng-submit="$ctrl.addPost({newPost: $ctrl.newPost});">
 <p class="p1">Title</p>
-<input class="input" expand type="text" ng-model="$ctrl.newPost.title">
+<input placeholder="Post title"
+expand type="text" 
+ng-model="$ctrl.newPost.title">
 <p class="p2">Thought</p>
-<textarea class="textarea" 
+<textarea 
         expand 
         name="" 
         id="" 

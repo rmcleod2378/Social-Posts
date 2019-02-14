@@ -34,12 +34,14 @@ p.title {
 
 form {
     background-color: rgb(3, 169, 244);
+    display: inline-block;
     width: 100%;
     border-radius: 5px;
 }
 
-.fields {
+section {
     font-family: 'Dosis', sans-serif;
+    
     
 }
 
@@ -47,7 +49,10 @@ form {
     font-family: 'Dosis', sans-serif;
 }
 
-section {
-   border-bottom: 2px black; 
-    
+input {
+    font-family: 'Dosis', sans-serif;
 }
+textarea {
+    font-family: 'Dosis', sans-serif;
+}
+
